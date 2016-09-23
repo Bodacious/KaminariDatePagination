@@ -1,24 +1,27 @@
-# README
+# Paginate Kaminari records by date
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example Ruby on Rails 5 application showing Kaminari records paginated by date.
 
-Things you may want to cover:
+## Set up
 
-* Ruby version
+Set up the database
 
-* System dependencies
+    $ rails db:create
 
-* Configuration
+Set up the events table
 
-* Database creation
+    $ rails db:migrate
 
-* Database initialization
+Load some seed data into the database
 
-* How to run the test suite
+    $ rails db:seed
 
-* Services (job queues, cache servers, search engines, etc.)
+## Start the server
 
-* Deployment instructions
+    rails server
 
-* ...
+## See it in action
+
+Go to: [http://localhost:3000](http://localhost:3000)
+
+Courtesy of Katana, [app developers from Edinburgh](http://katanacode.com?utm_campaign=General&utm_source=GitHub&utm_medium=README&utm_content=Kaminari)
